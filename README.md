@@ -1,2 +1,4 @@
 # git-tutorial
-apredendo a utilizar o github com a DIO
+
+Meu primeiro repositório criado!
+testando os comandos e funcionalidades do git e github com ajuda da DIO
