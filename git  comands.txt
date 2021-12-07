@@ -1,0 +1,50 @@
+obejetos do git :
+blobs: 
+trees
+commits
+
+--------------------------------------------------------------------------------
+chaves SSH 
+tokin
+
+------------------------------------------------------------------------
+git init 
+git commit -m "first commit"
+git status
+git add "arquivo" ou .
+git branch -M main
+https://www.youtube.com/watch?v=kB5e-gTAl_s   
+
+
+git remote add origin repositorio
+
+git remote add origin https://github.com/guim0raes/git-tutorial.git
+git push -u origin main
+git push --set-upstream origin master
+
+git reflog ( versoes do codigo )
+$ git reset --hard (navega entre as versoes)
+
+git branch 'straging nome da branch'(cria uma branch local)
+git checkout 'nome da branch'( troca de branch)
+git push --set-upstream origin 'nome da branch'(cria nova branch no HUB)
+
+
+<< antes de mesclar os codigos (merge) entre nas branches e atualize os arquivos locais >>
+git pull 'branch principal'
+
+<< entrar na branch que você quer puxar as atualizações de outra branch >>
+git merge 'nome branch'
+
+
+git checkout -b 'nome branch' ( cria uma nova branch e muda para ela )
+git checkout -b 'nome branch' 'master' ( master é a base )
+ boas praticas :
+                  1.git pull da principal
+                  2.gerar uma nova branch 
+                  3. add coisas na branch
+                  4. finalizar na branch temporaria
+                   . git pull
+                  5. merge as branches temporaria e principal
+                  6. git push
+
